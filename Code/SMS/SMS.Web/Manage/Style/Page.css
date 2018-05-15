@@ -1,0 +1,142 @@
+﻿/****************************************
+Name: Page.css
+Author: TsoLong
+Email: tsolong@126.com
+WebSite: http://www.tsolong.com/
+Create Date: 2008-12-10
+Last Update:2011-5-25
+Description:
+	系统管理页面样式表
+****************************************/
+/*----公用----*/
+body{color:#474747; font-family:"微软雅黑", "宋体";}
+a{color:#474747;}
+a:hover{color:#ff5266;}
+p{line-height:18px;}
+button,.btn{width:82px; height:30px; line-height:30px; font-size:12px; color:#474747; cursor:pointer; background:#f6f6f6; border:1px solid #ddd;}
+.txt,.txtarea{color:#474747; padding:5px; font-size:12px; border:1px solid #ddd; font-family:Verdana,Arial;}
+.txt{width:180px; height:16px;}
+.txtarea{width:350px; height:80px; overflow:auto;}
+
+
+/*--------------------登录页面--------------------*/
+#loginBody{background:url(Images/Login/loginBG.gif) no-repeat fixed 0 0 #528036;}
+#login{_width:371px; margin:auto; padding:60px 50px; position:absolute; left:-1000px; top:-1000px; background:#f2f8de; border:12px solid #3b3b3b; opacity:0.9; filter: alpha(opacity=90);}
+#login div{height:37px; margin:0 0 30px 0;}
+#login .last{margin:0;}
+#login div label,#login input,#login button{float:left;}
+#login div label{margin:10px 0 0 0; letter-spacing:1px; font-size:18px; font-weight:bold;}
+#login .txt{margin:0 0 0 50px; width:250px; height:25px; font-size:18px; letter-spacing:1px;}
+#login button{margin:3px 0 0 70px;}
+#login button,#login .txt{border:1px solid #3b3b3b;}
+
+
+/*--------------------顶部--------------------*/
+#header{}
+#header .logo{top:20px; left:20px; position:absolute; font-size:25px; font-weight:bold;}
+#header .loginUserInfo{top:25px; right:10px; position:absolute;}
+#header .loginUserInfo b{font-family:Verdana,Arial;}
+
+#nav{position:absolute; left:10px; top:70px; _top:70px;}
+#nav li{margin:0 10px 0 0; height:32px; float:left; _display:inline;}
+#nav li a{display:block; line-height:30px; text-decoration:none; padding:0 10px; letter-spacing:1px; color:#474747; background:#f6f6f6; border:1px solid #ddd;}
+#nav li a:hover{background:#fff;}
+#nav li.click a,#nav li.click a:hover{background:#fff; color:#e45f00; border-bottom:1px solid #fff; border-top:3px solid #e45f00; font-weight:bold;}
+
+#subNav{margin:101px 10px 0 10px; padding:5px 0; border:1px solid #ddd;}
+#subNav ul{height:22px; display:none;}
+#subNav ul li{margin:0 0 0 10px; height:22px; float:left; _display:inline;}
+#subNav ul li a{display:block; line-height:20px; text-decoration:none; padding:0 10px; letter-spacing:1px; color:#474747; border-left:3px solid #ddd;}
+#subNav ul li a:hover{color:#e45f00;}
+#subNav li.click a,#subNav li.click a:hover{color:#e45f00;}
+
+
+/*--------------------底部--------------------*/
+#footer{padding:0 0 0 10px; height:36px; line-height:36px; font-family:Verdana,Arial; position:relative; border-top:1px solid #ddd;}
+#todayInfo{position:absolute; top:12px; right:10px;}
+
+
+/*--------------------以下是中间样式--------------------*/
+
+/*--右侧面板--*/
+.panel{margin:10px; border:1px solid #ddd;}
+.panel .content{padding:10px;}
+
+
+/*--工具条--*/
+.toolBar{_width:100%; padding: 0 0 2px 10px; _padding: 0 0 2px 0px; overflow:hidden; border-bottom:1px solid #ddd;}
+.toolBar span,.toolBar a,.toolBar div{float:left; height:24px; line-height:24px; margin:2px 10px 0 0; *white-space:nowrap; _display:inline; letter-spacing:1px;}
+.toolBar span{_margin:2px 10px 0 10px; font-weight:bold; color:#00555f;}
+.toolBar a{text-decoration:none; border:1px solid #fff; padding:0 5px 0 25px; color:#00555f;}
+.toolBar a:hover{border:1px solid #00555f; color:#00555f;}
+
+.toolBar a.add{background:url(Images/ToolBar/add.gif) 5px center no-repeat;}/*添加*/
+.toolBar a.del{background:url(Images/ToolBar/del.gif) 5px center no-repeat;}/*删除*/
+.toolBar a.pic{background:url(Images/ToolBar/pic.gif) 5px center no-repeat;}/*图片*/
+.toolBar a.changeSelect1{background:url(Images/ToolBar/changeSelect1.gif) 5px center no-repeat;}/*全选*/
+.toolBar a.changeSelect2{background:url(Images/ToolBar/changeSelect2.gif) 5px center no-repeat;}/*反选*/
+.toolBar a.changeSelect3{background:url(Images/ToolBar/changeSelect3.gif) 5px center no-repeat;}/*不选*/
+.toolBar a.refresh{background:url(Images/ToolBar/refresh.gif) 5px center no-repeat;}/*刷新*/
+
+
+/*--页面提示信息区域块--*/
+.pageMsg{margin:0 0 10px 0;	padding:10px; line-height:18px;}
+.pageMsg ul li{list-style-type:disc; list-style-position:inside;}
+.pageMsg.msgHint{color:#ff0000;	border:1px dashed #ff0000;}
+.pageMsg.msgSucceed{color:green; border:1px dashed green;}
+
+
+/*--(添加 编辑 列表)表格样式--*/
+.addTab,.editTab,.listTab{border-collapse:collapse; width:100%;}
+.addTab tr td,.addTab tr th,.editTab tr td,.editTab tr th,.listTab tr td,.listTab tr th{padding:5px 10px; height:28px; border:1px solid #ddd;}
+.addTab tr th,.editTab tr th{width:100px; text-align:left; font-weight:normal;}
+.addTab .rowMsg,.editTab .rowMsg{color:#ccc;}
+.addTab .rowMsg .required,.editTab .rowMsg .required{color:#ff0000;}
+
+
+/*--数据列表表格--*/
+.listTab tr td,.listTab tr th{padding:0px 10px; height:35px;}
+.listTab tr.hover td{background:#eafadf;}
+.listTab tr.click td{background:#fbeadb;}
+.listTab tr th{background:#f6f6f6; text-align:left; font-weight:normal;}
+
+
+/*--数据列表表格的操作列--*/
+.listTab .oper,.listTab .operHover{width:25px; cursor:pointer;}
+.listTab .oper div,.listTab .operHover div{position:relative;}
+.listTab .oper div ul{display:none;}
+.listTab .operHover div ul{display:block; width:100px; top:-5px; right:25px; _right:35px; position:absolute; border:1px solid #ddd; background:#f6f6f6; padding:3px 0 3px 0; opacity:0.85; filter:alpha(opacity=85);}
+.listTab .operHover div ul li{}
+.listTab .operHover div ul li a{text-decoration:none; display:block; width:100%; color:#474747;}
+.listTab .operHover div ul li a:hover{}
+.listTab .operHover div ul li a div{cursor:pointer; height:20px; line-height:22px; margin:2px 5px; padding:0 5px; overflow:hidden; text-align:left;}
+.listTab .operHover div ul li a:hover div{height:18px; line-height:20px; padding:0 4px; border:1px solid #7b15ff;}
+
+/*--暂无数据--*/
+.noData{height:150px; border:1px solid #ddd; background:#fff url(Images/noData.gif) center center no-repeat;}
+/*--数据不存在--*/
+.dataNotExist{height:150px; border:1px solid #ddd; background:#fff url(Images/dataNotExist.gif) center center no-repeat;}
+
+
+/*--上传图片预览--*/
+#preview{margin:0 0 10px 0;}
+
+
+/*--数据状态--*/
+.fontRed{color:red;}
+.fontGreen{color:green;}
+
+
+/*--表单按钮块--*/
+.formBtn{text-align:center; margin:10px 0 0 0;}
+
+
+/*--分页条样式--*/
+.pageBar{margin:10px auto 0 auto; height:25px; clear:both;}
+.pageBar span,.pageBar a{display:block;	float:left;	padding:0 7px; height:23px; line-height:23px; margin:0 5px 0 0; border:1px solid #ddd;}
+.pageBar a{cursor:pointer; text-decoration:none;}
+.pageBar a:hover{border:1px solid #e63472; color:#000;}
+.pageBar a.currentPage{padding:0 8px; height:25px; line-height:25px; color:#fff; cursor:auto; border:none; background:#e63472;}
+.pageBar a.disabled{cursor:auto; color:#ccc;}
+.pageBar a.disabled:hover{border:1px solid #ddd;}
+.pageBar .txt{width:30px; margin:0 5px 0 0;}

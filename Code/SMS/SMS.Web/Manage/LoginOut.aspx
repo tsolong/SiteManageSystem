@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LoginOut.aspx.cs" Inherits="SMS.Web.Manage.LoginOut" %>

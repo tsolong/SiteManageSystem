@@ -1,0 +1,6 @@
+bin\Debug\SMS.Common.dll
+bin\Debug\SMS.Common.pdb
+bin\Debug\msmdvbanet.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SMS.Common.dll
+obj\Debug\SMS.Common.pdb

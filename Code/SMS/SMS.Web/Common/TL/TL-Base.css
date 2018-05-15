@@ -1,0 +1,23 @@
+﻿/****************************************
+Name: TL-Base.css
+Author: TsoLong
+Email: tsolong@126.com
+WebSite: http://www.tsolong.com/
+Create Date: 2008-12-10
+Description:
+	css基础样式表
+****************************************/
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, table, tbody, tr, th, td, input, button {
+	margin: 0;
+	padding: 0;
+}
+h2{
+	font-size:14px;
+	font-weight:bold;
+	line-height:30px;
+}
+
+body{font-size:12px; font-family:"宋体",Verdana,Arial, Helvetica, sans-serif;}
+ul,li{list-style:none;}
+img{border:0px;}
+.clear{clear:both; height:0; overflow:hidden;}

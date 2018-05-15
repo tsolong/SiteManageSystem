@@ -1,0 +1,5 @@
+bin\Debug\2.0\FredCK.FCKeditorV2.dll
+bin\Debug\2.0\FredCK.FCKeditorV2.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FredCK.FCKeditorV2.dll
+obj\Debug\FredCK.FCKeditorV2.pdb

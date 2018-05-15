@@ -1,0 +1,13 @@
+bin\Debug\SMS.Web.UI.dll
+bin\Debug\SMS.Web.UI.pdb
+bin\Debug\SMS.BLL.dll
+bin\Debug\SMS.Config.dll
+bin\Debug\SMS.Model.dll
+bin\Debug\SMS.SQLServerDAL.dll
+bin\Debug\SMS.Config.pdb
+bin\Debug\SMS.BLL.pdb
+bin\Debug\SMS.SQLServerDAL.pdb
+bin\Debug\SMS.Model.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SMS.Web.UI.dll
+obj\Debug\SMS.Web.UI.pdb

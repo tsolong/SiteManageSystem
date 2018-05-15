@@ -1,0 +1,9 @@
+bin\Debug\SMS.SQLServerDAL.dll
+bin\Debug\SMS.SQLServerDAL.pdb
+bin\Debug\SMS.Config.dll
+bin\Debug\SMS.Model.dll
+bin\Debug\SMS.Model.pdb
+bin\Debug\SMS.Config.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SMS.SQLServerDAL.dll
+obj\Debug\SMS.SQLServerDAL.pdb

@@ -1,0 +1,5 @@
+bin\Debug\SMS.Config.dll
+bin\Debug\SMS.Config.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SMS.Config.dll
+obj\Debug\SMS.Config.pdb

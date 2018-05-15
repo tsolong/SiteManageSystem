@@ -1,0 +1,49 @@
+﻿/****************************************
+Name: TL-More.css
+Version: 1.0
+Author: TsoLong
+Email: tsolong@126.com
+WebSite: http://www.tsolong.com/
+Create Date: 2008-12-01
+Last Update:2011-5-25
+Description:
+	JS效果库样式表
+****************************************/
+/*--loading--*/
+#loading{position:absolute; line-height:18px; padding:20px 20px 20px 80px; font-size:14px; color:#474747;}
+#loading.default{border:1px solid #5bc514; background:#fff url(Images/loading/default/loading.gif) no-repeat 20px center;}
+#loading.green{border:1px solid #34a761; background:#fff url(Images/loading/green/loading.gif) no-repeat 20px center;}
+#loading.blue{border:1px solid #2b66a8; background:#fff url(Images/loading/blue/loading.gif) no-repeat 20px center;}
+#loading.purple{border:1px solid #b997cb; background:#fff url(Images/loading/purple/loading.gif) no-repeat 20px center;}
+#loading.red{border:1px solid #bb3232; background:#fff url(Images/loading/red/loading.gif) no-repeat 20px center;}
+/*--loading--*/
+
+.win{position:absolute; padding:1px 1px 0 1px; border:1px solid #7b828b; font-size:12px; background:#fff;}
+
+.win .winTop{height:36px; line-height:36px; border-bottom:1px solid #d5d5d5; background:url(Images/win/winTop.gif); color:#474747; text-indent:10px; font-size:14px; font-weight:bold; font-family:Verdana; letter-spacing:1px;}
+
+.win .winTop a{width:15px; height:15px; top:11px; cursor:pointer; position:absolute;}
+.win .winTop .winMin{background:url(Images/win/winMin.gif) no-repeat; right:30px;}
+.win .winTop .winMin:hover{background:url(Images/win/winMinHover.gif) no-repeat;}
+.win .winTop .winMax{background:url(Images/win/winMax.gif) no-repeat; right:30px; display:none;}
+.win .winTop .winMax:hover{background:url(Images/win/winMaxHover.gif) no-repeat;}
+.win .winTop .winClose{background:url(Images/win/winClose.gif) no-repeat; right:10px;}
+.win .winTop .winClose:hover{background:url(Images/win/winCloseHover.gif) no-repeat;}
+
+.win .winMiddle{overflow:auto;}
+
+.win .winMiddle .winMsg{line-height:18px; padding:30px 30px 30px 70px; min-height:13px; _height:13px; color:#474747;}
+.win .winMiddle .winMsg a{color:#474747;}
+
+
+.win .winMiddle .msg1{background:url(Images/win/msg1.gif) no-repeat 20px center;}
+.win .winMiddle .msg2{background:url(Images/win/msg2.gif) no-repeat 20px center;}
+.win .winMiddle .msg3{background:url(Images/win/msg3.gif) no-repeat 20px center;}
+.win .winMiddle .msg4{background:url(Images/win/msg4.gif) no-repeat 20px center;}
+.win .winMiddle .msg5{background:url(Images/win/msg5.gif) no-repeat 20px center;}
+
+.win .winMiddle .winControl{text-align:right; height:45px; background:url(Images/win/winControl.gif) repeat-x; border-top:1px dotted #c9c9c9;}
+
+.win .winMiddle .winControl .winBtn,.win .winMiddle .winControl .winBtnHover{width:80px; height:22px; margin:11px 10px 0px 10px; padding:0; cursor:pointer; font-size:12px; line-height:20px; color:#474747; border:1px solid #7b828b;}
+.win .winMiddle .winControl .winBtn{background:#f0f0f0;}
+.win .winMiddle .winControl .winBtnHover{background:#fff;}
